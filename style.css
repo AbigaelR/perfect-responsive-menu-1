@@ -2,6 +2,12 @@
 	display: none;
 }
 
+@media screen and (max-width: 35.999rem) {
+    body[data-noScroll="true"]{
+        overflow: hidden;
+    }
+}
+
 body {
 	overflow: hidden;
 	font-family: sans-serif;
